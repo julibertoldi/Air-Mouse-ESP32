@@ -1,12 +1,12 @@
 # Air-Mouse-ESP32
 Dispositivo de Punteo Inalámbrico (Air Mouse) con ESP32 - UTN FRCU
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 Dispositivo de puntero aéreo (Air Mouse) basado en el microcontrolador **ESP32**, diseñado para proporcionar control de cursor mediante un joystick analógico, desplazamiento con encoder rotativo y clics físicos independientes, utilizando comunicación inalámbrica de baja energía (**BLE HID**).
 
 ---
 
-## 🛠️ Componentes de Hardware (Mapeo de Pines)
+## Componentes de Hardware (Mapeo de Pines)
 
 | Componente | Modelo / Descripción | Pin ESP32 |
 | :--- | :--- | :--- |
@@ -21,9 +21,9 @@ Dispositivo de puntero aéreo (Air Mouse) basado en el microcontrolador **ESP32*
 
 ---
 
-## ⚙️ Características Técnicas
+## Características Técnicas
 * **Conectividad BLE HID:** Emulación de dispositivo de interfaz humana por Bluetooth de bajo consumo utilizando la librería `HijelHID_BLEMouse`.
-* **Calibración Dinámica:** Rutina de medición inicial de los centros del joystick al arrancar para evitar desvíos (*drift*).
+* **Calibración Dinámica:** Rutina de medición inicial de los centros del joystick al arrancar para evitar desvíos.
 * **Señalización de Estados:** 
   * *Calibración:* LED en color Amarillo.
   * *Buscando conexión:* Parpadeo en color Azul.
@@ -31,5 +31,5 @@ Dispositivo de puntero aéreo (Air Mouse) basado en el microcontrolador **ESP32*
 
 ---
 
-## 🚀 Simulación y Ejecución
+## Simulación y Ejecución
 El proyecto cuenta con simulación mediante la plataforma **Wokwi**, permitiendo validar la lógica de control y el comportamiento de las entradas/salidas digitales y analógicas antes del montaje físico.
